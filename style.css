@@ -1,0 +1,149 @@
+body{
+    background-color: #fffcd7 ;
+    
+}
+*{
+    font-family: cursive;
+}
+
+.nav ul{
+    display:inline-block ;
+    font-size:25px;
+}
+ul a{
+    text-decoration:none;
+    color: #000;
+}
+a li{
+    display: inline;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+#top_juice{
+    background-color:#cdffb6;
+    text-align: center;
+}
+#top_juice h1{
+    color:#ff2a4a ;
+}
+#top_juice div{
+    display: inline-block;
+    position: relative;
+}
+#top_juice img{
+    border-radius: 15px;
+    border: 5px solid #fffcd7;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+
+}
+#top_juice div:hover  img{
+    cursor: pointer;
+    top:-10px;
+    left:-10px ;
+}
+
+#top_juice p{
+    background-color: #ff00009e;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 85px;
+    right: 40px;
+}
+#top_juice div:hover  p{
+    cursor: pointer;
+    bottom: 95px;
+    right: 50px;
+}
+#about_us{
+    background-color:#ffc23f;
+    color:#fffcd7;
+}
+
+#about_us p{
+    font-size: 24px;
+}
+
+#contact_us{
+    background-color:#cdffb6;
+    color:black;
+    font-size: 20px;
+}
+#contact_us textarea{
+    padding: 10px;
+    font-size: 15px;
+}
+.send-button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #ffc23f;
+}
+
+#copy_rights{
+    background-color:#000;
+    color:#fff;
+}
+
+
+#juice_control{
+    background-color:#ffafaf;
+    text-align: center;
+}
+#juice_control h1{
+    color:black ;
+    font-size:40px;
+}
+#juice_control div{
+    display: inline-block;
+    position: relative;
+    border: 2px solid black;
+}
+#juice_control img{
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+
+}
+
+#juice_control p{
+    background-color: #000000c2;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+#juice_control h2{
+    margin: 5px;
+}
+#juice_control a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: #ee0000;
+    color: white;
+    border-radius: 5px;
+    margin: 2px;
+    display: inline-block;
+}
+
+.add-button{
+    border: none;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #00ee5f;
+    border-radius: 5px;
+    margin: 2px;
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    padding: 8px;
+}
+
